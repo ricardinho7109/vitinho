@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: fcc25216d18931c44a1bc69dd9090c49
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 534
+        width: 801
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb176998f0f2de46b4cdafb7ee90078
+      internalID: 13600883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 440
+        width: 148
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8349187abe7f64eb97265618d0f5b9
+      internalID: 2143785536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 439
+        width: 138
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281b4ee3de772fb478b760b49cea394e
+      internalID: -1349704107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 442
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f77ef883590c4c91abd7caf751323
+      internalID: -965420736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 440
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d24e36387e074b84c50147e557304
+      internalID: -1992715289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_7
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 441
+        width: 152
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbaca5ab60c4e047b42faa7e7125399
+      internalID: 969930388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_11
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 328
+        width: 145
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcf45ac9ed715f4e8377684853d16eb
+      internalID: -637339943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 328
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f28d194a27b1d499a79d2417b522a9
+      internalID: -1906993735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 328
+        width: 146
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb7eea9aab64cc49836f38e82a5c474
+      internalID: 159227728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 326
+        width: 140
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9652800cdea5154dabc0cbd2b713754
+      internalID: -292860562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_15
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 328
+        width: 145
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc1f543d30b9834e88ead137f6a47b1
+      internalID: 1900930848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_16
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 327
+        width: 143
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9169d92fef2ae4bbbf7f9a26d53782
+      internalID: -1011264425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 208
+        width: 209
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53a91431d556be4db7cc07ff6101ed8
+      internalID: -1976250883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 205
+        width: 179
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482df5eaa8ba63b4cba484c9f51fd468
+      internalID: -1568254835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_22
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 207
+        width: 184
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0095f4dd398d8249abc21220b3b058a
+      internalID: 1046225145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 202
+        width: 173
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a6e3114ea1394e828149504c230dc
+      internalID: 1967345331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 185
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54469a0a4684d49498fb0ad62f65d8dd
+      internalID: -105651974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 89
+        width: 129
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f64dbc5b2ea96f46bae0dc9bb8d95d1
+      internalID: 354303342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 81
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e107d89d83bf2d4a85a75a23c7c0ad2
+      internalID: -1679272695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 88
+        width: 136
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4f8c99e4c863a4cb5bf9004d3e6f7d
+      internalID: -1682152621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_30
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 88
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e032f543554c64abc179dfa05a72a0
+      internalID: -1743631250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc2624678eb9c040af1726093398ca2
+      internalID: -2023441544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_32
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 108
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263609744f917b4b83e0f8e83e0d9b2
+      internalID: 1709212583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 94
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcf3e906f1cb6048aa0512ab45db9d8
+      internalID: -206167818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_34
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 102
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb28f3b2b71b2a458d2a0a5027b2071
+      internalID: -39503059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61515f3c4f567c4ab7371a227c8bb67
+      internalID: -1304596339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_36
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2782b21d138d0bf4f9b28d2fd2512617
+      internalID: -12125427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_37
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 97
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1174b67022fda241893191b76571105
+      internalID: -370683565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_38
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6491a7240422a26488e925b0150938c4
+      internalID: -63372873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_0: 13600883
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_1: 893069635
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_10: 946930926
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_11: -637339943
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_12: -1906993735
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_13: 159227728
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_14: -292860562
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_15: 1900930848
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_16: -1011264425
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_17: 21028151
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_18: 1203700406
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_19: 2000211875
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_2: -1064752740
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_20: -1976250883
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_21: -1568254835
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_22: 1046225145
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_23: 1967345331
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_24: 1500512702
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_25: 300230514
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_26: -105651974
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_27: 354303342
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_28: -1679272695
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_29: -1682152621
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_3: 2143785536
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_30: -1743631250
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_31: -2023441544
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_32: 1709212583
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_33: -206167818
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_34: -39503059
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_35: -1304596339
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_36: -12125427
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_37: -370683565
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_38: -63372873
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_4: -1349704107
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_5: -965420736
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_6: -1992715289
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_7: 969930388
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_8: 1143102047
+      AIDrawing_251106_123628a7-3988-4529-8d48-3bf3fc71203a_0_MiriCanvas (1)_9: 171615416
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
