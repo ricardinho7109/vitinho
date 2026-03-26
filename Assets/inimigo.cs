@@ -135,4 +135,23 @@ public class Inimigo : MonoBehaviour
 
         Destroy(gameObject, 3); //Configurar o tempo de destruição do objeto
     }
+
+    private void Patrulhando()
+    {
+        // Movimento entre dois pontos
+        if (movingRight)
+        {
+            rb.velocity = new Vector2(patrolSpeed, rb.velocity.y);
+
+            if (Vector2.Distance(transform.position, rightPoint.position) < 1f)
+                movingRight = false;
+        }
+        else
+        {
+            rb.velocity = new Vector2(-patrolSpeed, rb.velocity.y);
+
+            if (Vector2.Distance(transform.position, leftPoint.position) < 1f)
+                movingRight = true;
+        }
+    }
 }
