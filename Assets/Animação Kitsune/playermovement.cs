@@ -2,19 +2,23 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
-    // Variáveis públicas para ajuste no Inspector
-    public float moveSpeed = 5f; // Velocidade de movimento
-    public float jumpForce = 10f; // Força do pulo
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
 
-    private Rigidbody2D rb; // Referência ao Rigidbody2D
-    private Animator animator; // Referência ao Animator
-    private SpriteRenderer spriteRenderer; // Referência ao SpriteRenderer
-    public bool isGrounded = true; // Verifica se o jogador está no chão
+    private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
+    // 🔴 NÃO começa como true
+    private bool isGrounded;
+
+    // ✅ ADICIONADO (ground check)
+    public Transform groundCheck;
+    public float checkRadius = 0.3f;
+    public LayerMask groundLayer;
 
     void Start()
     {
-        // Obtém o componente Rigidbody2D do GameObject
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -22,6 +26,12 @@ public class playermovement : MonoBehaviour
 
     void Update()
     {
+        // ✅ VERIFICAÇÃO DE CHÃO (NOVA)
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+
+        // 🔍 DEBUG (pode apagar depois)
+        Debug.Log(isGrounded);
+
         UpdateAnimator();
         Movement();
         Jump();
@@ -44,49 +54,36 @@ public class playermovement : MonoBehaviour
 
     private void Jump()
     {
-        // Pulo
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, 0f);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 
     private void Movement()
     {
-        // Movimento horizontal
-        float moveInput = Input.GetAxis("Horizontal"); // Captura entrada do teclado (A/D ou setas)
+        float moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
-        // Inverte a direção do sprite do personagem
         MirrorSprite(moveInput);
     }
 
     private void MirrorSprite(float moveInput)
     {
         if (moveInput < 0)
-        {
             spriteRenderer.flipX = true;
-        }
-        else
-        {
+        else if (moveInput > 0)
             spriteRenderer.flipX = false;
-        }
     }
 
-    // Verifica se o jogador está no chão (não é a melhor forma de fazer isso)
-    private void OnCollisionEnter2D(Collision2D collision)
+    // ✅ DEBUG VISUAL (bola no pé)
+    private void OnDrawGizmosSelected()
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (groundCheck != null)
         {
-            isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
         }
     }
 }
