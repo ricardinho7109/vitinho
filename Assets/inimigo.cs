@@ -1,10 +1,8 @@
-
 using System;
 using System.Collections;
 using UnityEngine;
 
-public class Inimigo : MonoBehaviour
-{
+public class Inimigo : MonoBehaviour{
     [Header("Configurações")]
     public float moveSpeed = 2f;       // Velocidade de movimento
     public int maxHealth = 2;          // Vida do inimigo
@@ -14,8 +12,8 @@ public class Inimigo : MonoBehaviour
     private bool isKnockBacked = false;
 
     private Animator anim;
-    private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
     private Collider2D col;
 
     void Start()
@@ -23,7 +21,7 @@ public class Inimigo : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        col = GetComponent<Collider2D>();
+        //col = GetComponent<Collider2D>();
     }
 
     void Update()
@@ -134,24 +132,5 @@ public class Inimigo : MonoBehaviour
         EfeitoDePiscar();
 
         Destroy(gameObject, 3); //Configurar o tempo de destruição do objeto
-    }
-
-    private void Patrulhando()
-    {
-        // Movimento entre dois pontos
-        if (movingRight)
-        {
-            rb.velocity = new Vector2(patrolSpeed, rb.velocity.y);
-
-            if (Vector2.Distance(transform.position, rightPoint.position) < 1f)
-                movingRight = false;
-        }
-        else
-        {
-            rb.velocity = new Vector2(-patrolSpeed, rb.velocity.y);
-
-            if (Vector2.Distance(transform.position, leftPoint.position) < 1f)
-                movingRight = true;
-        }
     }
 }
