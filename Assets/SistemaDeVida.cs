@@ -37,7 +37,7 @@ public class SistemaDeVida : MonoBehaviour
 
     protected virtual void Morrer()
     {
-        Debug.Log("Morreu");
+        HUDController.Instance.MostrarGameOver();
     }
 
     internal void AplicarDano(object dano)

@@ -36,7 +36,17 @@ public class playermovement : MonoBehaviour
         Movement();
         Jump();
         Attack();
+        PauseGame();
     }
+
+    private void PauseGame()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            HUDController.Instance.PausarJogo();
+        }
+    }
+
 
     private void UpdateAnimator()
     {

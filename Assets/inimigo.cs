@@ -7,7 +7,10 @@ public class Inimigo : MonoBehaviour{
     public float moveSpeed = 2f;       // Velocidade de movimento
     public int maxHealth = 2;          // Vida do inimigo
     public float knockbackForce = 5f;  // Força do recuo ao levar dano
+    public float distance = 1f;
     [SerializeField] bool movingRight = true;   // Direção inicial do movimento
+    [SerializeField] Transform rightPoint;
+    [SerializeField] Transform leftPoint;
     private bool vivo = true;
     private bool isKnockBacked = false;
 
@@ -30,6 +33,29 @@ public class Inimigo : MonoBehaviour{
         if (isKnockBacked || !vivo) return;
 
         // Movimento básico para frente
+        Patrulhar();
+    }
+
+    private void Patrulhar()
+    {
+        // Movimento entre dois pontos
+        if (movingRight)
+        {
+            if (Vector2.Distance(transform.position, rightPoint.position) < distance){
+                movingRight = false;
+        
+            }
+        }
+        else
+        {
+            if (Vector2.Distance(transform.position, leftPoint.position) < distance)
+            {
+                movingRight = true;
+        
+            }
+        }
+
+        
         Move();
     }
 
@@ -58,12 +84,7 @@ public class Inimigo : MonoBehaviour{
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Inverte direção ao colidir com paredes ou obstáculos
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Inimigo"))
-        {
-            movingRight = !movingRight;
-        }
-        else if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             SistemaDeVida sistemaDeVida = collision.gameObject.GetComponent<SistemaDeVida>();
             sistemaDeVida.AplicarDano(10);
