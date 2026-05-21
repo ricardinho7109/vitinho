@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fac05a4707dbcc84ca7d085272af4e0b
+guid: 9bb49cdd8b251a848baed1e833b95298
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_2_0
+      name: Soul - Attack_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 0
-        width: 65
-        height: 80
+        x: 44
+        y: 51
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf9d860ea5b8fb438139b6cc7ef8f51
-      internalID: -704959033
+      spriteID: 91b6f40c6748c5846b2a8b605b3e371b
+      internalID: -886202216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_1
+      name: Soul - Attack_1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 0
-        width: 65
-        height: 80
+        x: 168
+        y: 50
+        width: 28
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77807afee1e1ccd4b88c752004e3194e
-      internalID: -1713548910
+      spriteID: 331640a88275d614cb5945890d50cb37
+      internalID: -1891754605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_2
+      name: Soul - Attack_2
       rect:
         serializedVersion: 2
-        x: 279
-        y: 0
-        width: 66
-        height: 80
+        x: 286
+        y: 49
+        width: 37
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d47b6637dbd2540aeaac7538a5b1b8
-      internalID: 1675204527
+      spriteID: 058a94c2ce91d684196dd21c9cf03d30
+      internalID: -1233540368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_3
+      name: Soul - Attack_4
       rect:
         serializedVersion: 2
-        x: 407
-        y: 0
-        width: 65
-        height: 80
+        x: 413
+        y: 45
+        width: 52
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e488fe7d50cbb3489cc43e8526a665a
-      internalID: -1126457178
+      spriteID: 4b4bd55fda9a06f428eaa4cfbe2d5002
+      internalID: -1652089376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_4
+      name: Soul - Attack_6
       rect:
         serializedVersion: 2
-        x: 535
-        y: 0
-        width: 65
-        height: 80
+        x: 537
+        y: 51
+        width: 43
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e5c7feb3eb735469f6136284b13653
-      internalID: 585209910
+      spriteID: ab07f5b2770c02a449fe860dd6a0f7de
+      internalID: 861884860
       vertices: []
       indices: 
       edges: []
@@ -208,11 +208,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_2_0: -704959033
-      Idle_2_1: -1713548910
-      Idle_2_2: 1675204527
-      Idle_2_3: -1126457178
-      Idle_2_4: 585209910
+      Soul - Attack_0: -886202216
+      Soul - Attack_1: -1891754605
+      Soul - Attack_10: 631682349
+      Soul - Attack_2: -1233540368
+      Soul - Attack_3: -1245531751
+      Soul - Attack_4: -1652089376
+      Soul - Attack_5: -1212306322
+      Soul - Attack_6: 861884860
+      Soul - Attack_7: -783663815
+      Soul - Attack_8: 509797963
+      Soul - Attack_9: 194059329
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

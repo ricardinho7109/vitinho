@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fac05a4707dbcc84ca7d085272af4e0b
+guid: e840bbd7589dfa0438d5c5dc72dacf4a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_2_0
+      name: Soul - walk_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 0
-        width: 65
-        height: 80
+        x: 45
+        y: 58
+        width: 23
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf9d860ea5b8fb438139b6cc7ef8f51
-      internalID: -704959033
+      spriteID: b9c6fd4e98eb7744a969fd49c65b9b0d
+      internalID: 1552631064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_1
+      name: Soul - walk_1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 0
-        width: 65
-        height: 80
+        x: 168
+        y: 58
+        width: 28
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77807afee1e1ccd4b88c752004e3194e
-      internalID: -1713548910
+      spriteID: 5adfc44e2e5335540a618385bee3ba92
+      internalID: 1423431472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_2
+      name: Soul - walk_2
       rect:
         serializedVersion: 2
-        x: 279
-        y: 0
-        width: 66
-        height: 80
+        x: 293
+        y: 60
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d47b6637dbd2540aeaac7538a5b1b8
-      internalID: 1675204527
+      spriteID: b2f7a54ca5c46c243b4a9e2e6e9dfba7
+      internalID: -1029979204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_3
+      name: Soul - walk_3
       rect:
         serializedVersion: 2
-        x: 407
-        y: 0
-        width: 65
-        height: 80
+        x: 299
+        y: 57
+        width: 25
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e488fe7d50cbb3489cc43e8526a665a
-      internalID: -1126457178
+      spriteID: 1448b2735b6f69149b520c4c0472d826
+      internalID: 1996410349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2_4
+      name: Soul - walk_4
       rect:
         serializedVersion: 2
-        x: 535
-        y: 0
-        width: 65
-        height: 80
+        x: 420
+        y: 57
+        width: 32
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +191,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e5c7feb3eb735469f6136284b13653
-      internalID: 585209910
+      spriteID: ee25cca7a491b304c8f7f4cbcbcf3d9e
+      internalID: -375726052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul - walk_5
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 58
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7691191345018cd4bb6530fd1c6378d2
+      internalID: -1486023687
       vertices: []
       indices: 
       edges: []
@@ -208,11 +229,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_2_0: -704959033
-      Idle_2_1: -1713548910
-      Idle_2_2: 1675204527
-      Idle_2_3: -1126457178
-      Idle_2_4: 585209910
+      Soul - walk_0: 1552631064
+      Soul - walk_1: 1423431472
+      Soul - walk_2: -1029979204
+      Soul - walk_3: 1996410349
+      Soul - walk_4: -375726052
+      Soul - walk_5: -1486023687
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
