@@ -1,13 +1,28 @@
 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class SistemaDeVidaInimigo : SistemaDeVida
 {
     Inimigo inimigo;
     BarraDeVidaInimigo barraDeVidaInimigo;
+
     new void Start()
     {
         base.Start();
         inimigo = GetComponent<Inimigo>();
         barraDeVidaInimigo = GetComponentInChildren<BarraDeVidaInimigo>();
+    }
+
+    // NOVA FUNÇÃO: Chamada pela Fireball para calcular a porcentagem de dano
+    public void ReceberDanoPorcentagem(float porcentagem)
+    {
+        // Calcula quanto vale a porcentagem em relação à vida máxima
+        float valorDoDano = vidaMaxima * (porcentagem / 100f);
+
+        // Envia esse valor para a função AplicarDano que já cuida do resto
+        AplicarDano(valorDoDano);
     }
 
     public override void AplicarDano(float dano)
@@ -28,8 +43,13 @@ public class SistemaDeVidaInimigo : SistemaDeVida
     {
         inimigo.AnimacaoDeMorte();
     }
+
     void AtualizarVida()
     {
-        barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+        // Uma segurança extra: evita erro se o inimigo não tiver barra de vida
+        if (barraDeVidaInimigo != null)
+        {
+            barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+        }
     }
 }

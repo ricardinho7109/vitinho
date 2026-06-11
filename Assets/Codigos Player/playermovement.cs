@@ -63,27 +63,18 @@ public class playermovement : MonoBehaviour
 
     private void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && Time.time >= lastShootTime + shootCooldown)
         {
             animator.SetTrigger("Attack");
-            Vector3 position = shootPosition.position;
-            Quaternion rotation = fireballPrefab.transform.rotation;
-            if (spriteRenderer.flipX)
-            {
-                //position.y = shootPosition.position.y * -1;
-                rotation.eulerAngles = new Vector3(0, 180, 0);
-            }
-            else
-            {
-                //position.y = shootPosition.position.y * 1;
-                rotation.eulerAngles = new Vector3(0, 0, 0);
-            }
-
-
-            Instantiate(fireballPrefab, position, rotation);
-            //AudioManager.Instance.Play("Fireball");
-            lastShootTime = Time.time + shootCooldown;
         }
+    }
+
+    public void ShootFireball()
+    {
+        GameObject fireball = Instantiate(fireballPrefab, shootPosition.position, Quaternion.identity);
+        Fireball fbScript = fireball.GetComponent<Fireball>();
+        fbScript.direction = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+        lastShootTime = Time.time;
     }
 
     private void Jump()

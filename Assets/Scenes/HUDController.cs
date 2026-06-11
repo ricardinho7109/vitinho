@@ -60,4 +60,13 @@ public class HUDController : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    // 🏆 ADICIONADO: Função para carregar a tela de vitória
+    public void MostrarVitoria()
+    {
+        jogoPausado = false;
+        Time.timeScale = 1;
+        // Subentende-se que você criará uma cena chamada "TelaVitoria" no seu projeto
+        SceneManager.LoadScene("TelaVitoria");
+    }
 }

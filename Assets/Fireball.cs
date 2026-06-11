@@ -6,9 +6,9 @@ public class Fireball : MonoBehaviour
 {
     public float speed = 20f; // Velocidade da bala
     public float lifetime = 2f; // Tempo de vida da bala antes de ser destruída
+    public Vector2 direction; // Direção da bala
 
-    [Range(0f, 20
-        f)]
+    [Range(0f, 100f)]
     public float porcentagemDano = 25f; // Quanto por cento de vida o inimigo vai perder (Ex: 25%)
 
     private void Start()
@@ -17,10 +17,12 @@ public class Fireball : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
+    
+
     private void Update()
     {
         // Move a bala na direção em que ela está apontando
-        transform.Translate(speed * Time.deltaTime * Vector2.right);
+        transform.Translate(speed * Time.deltaTime * direction);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -29,11 +31,11 @@ public class Fireball : MonoBehaviour
         if (other.CompareTag("Inimigo"))
         {
             // Tenta pegar o script de vida que está no inimigo
-            VidaInimigo scriptVida = other.GetComponent<VidaInimigo>();
+            SistemaDeVidaInimigo scriptVida = other.GetComponent<SistemaDeVidaInimigo>();
 
             if (scriptVida != null)
             {
-                // Aplica o dano baseado na porcentagem
+                // CORRIGIDO: Passando 'porcentagemDano' em vez de 'Dano'
                 scriptVida.ReceberDanoPorcentagem(porcentagemDano);
             }
         }
