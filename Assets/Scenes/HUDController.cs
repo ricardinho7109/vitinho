@@ -49,8 +49,9 @@ public class HUDController : MonoBehaviour
 
     public void MostrarGameOver()
     {
-        jogoPausado = true;
-        Time.timeScale = 0;
+        /*jogoPausado = true;
+        Time.timeScale = 0;*/
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Reiniciar()

@@ -68,8 +68,7 @@ public class BossIAFSM : MonoBehaviour
         switch (chosenAttack)
         {
             case 0:
-                //bossAtaques.Attack_AoE();
-                Debug.Log("FSM: Ataque 1 → Area!");
+                bossAtaques.Attack_AoE();
                 break;
             case 1:
                 Debug.Log("FSM: Ataque 2 → Ataque Diagonal!");

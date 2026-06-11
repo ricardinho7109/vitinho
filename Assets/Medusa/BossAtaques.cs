@@ -11,7 +11,7 @@ public class BossAtaques : MonoBehaviour
     [Header("Aoe config")]
     public float aoeRadius = 3f;
     public float aoeDuration = 3f;
-    public int aoeDamage = 2;
+    public float aoeDamage = 2;
 
     public GameObject aoePrefab;
     [Header("Sword config")]
@@ -103,7 +103,7 @@ public class BossAtaques : MonoBehaviour
             {
                 if (hit.CompareTag("Player"))
                 {
-                    hit.GetComponent<PlayerController>().TakeDamage(aoeDamage);
+                    hit.GetComponent<SistemaDeVida>().AplicarDano(aoeDamage);
                 }
             }
 
