@@ -16,6 +16,13 @@ public class playermovement : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius = 0.3f;
     public LayerMask groundLayer;
+    
+    [Space(5)]
+    [Header("Fireball")]
+    public GameObject fireballPrefab;
+    public Transform shootPosition;
+    public float shootCooldown;
+    private float lastShootTime = 0;
 
     void Start()
     {
@@ -59,6 +66,23 @@ public class playermovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetTrigger("Attack");
+            Vector3 position = shootPosition.position;
+            Quaternion rotation = fireballPrefab.transform.rotation;
+            if (spriteRenderer.flipX)
+            {
+                //position.y = shootPosition.position.y * -1;
+                rotation.eulerAngles = new Vector3(0, 180, 0);
+            }
+            else
+            {
+                //position.y = shootPosition.position.y * 1;
+                rotation.eulerAngles = new Vector3(0, 0, 0);
+            }
+
+
+            Instantiate(fireballPrefab, position, rotation);
+            //AudioManager.Instance.Play("Fireball");
+            lastShootTime = Time.time + shootCooldown;
         }
     }
 

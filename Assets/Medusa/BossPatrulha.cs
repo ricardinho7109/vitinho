@@ -10,6 +10,7 @@ public class BossPatrulha : MonoBehaviour
     public float patrolSpeed = 2f;
     [SerializeField] bool movingRight = true;
     [SerializeField] bool patrulhando = false;
+    public float distancia = 5f;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator anim;
@@ -27,7 +28,7 @@ public class BossPatrulha : MonoBehaviour
         {
             Patrulhando();
         }
-        spriteRenderer.flipX = movingRight;
+        spriteRenderer.flipX = !movingRight;
     }
 
 
@@ -43,15 +44,16 @@ public class BossPatrulha : MonoBehaviour
         {
             rb.velocity = new Vector2(patrolSpeed, rb.velocity.y);
 
-            if (Vector2.Distance(transform.position, rightPoint.position) < 1f)
+            if (Vector2.Distance(transform.position, rightPoint.position) < distancia)
                 movingRight = false;
         }
         else
         {
             rb.velocity = new Vector2(-patrolSpeed, rb.velocity.y);
 
-            if (Vector2.Distance(transform.position, leftPoint.position) < 1f)
+            if (Vector2.Distance(transform.position, leftPoint.position) < distancia)
                 movingRight = true;
         }
+        anim.Play("Correr");
     }
 }

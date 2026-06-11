@@ -11,10 +11,12 @@ public class BossIAFSM : MonoBehaviour
 
     private BossAtaques bossAtaques;
     private BossPatrulha bossPatrulha;
+    private Animator anim;
     void Awake()
     {
         bossAtaques = GetComponent<BossAtaques>();
         bossPatrulha = GetComponent<BossPatrulha>();
+        anim = GetComponent<Animator>();    
     }
 
     void Update()
@@ -68,7 +70,8 @@ public class BossIAFSM : MonoBehaviour
         switch (chosenAttack)
         {
             case 0:
-                bossAtaques.Attack_AoE();
+                //bossAtaques.Attack_AoE();
+                Debug.Log("FSM: Ataque 1 → AoE!");
                 break;
             case 1:
                 Debug.Log("FSM: Ataque 2 → Ataque Diagonal!");
@@ -93,5 +96,6 @@ public class BossIAFSM : MonoBehaviour
     {
         cooldownTimer = attackCooldown;
         currentState = BossState.Idle;
+        anim.Play("Idle");
     }
 }
